@@ -1,4 +1,4 @@
-import Header from "./header/header";
+import Hero from "./hero/Hero";
 import WhatGPT3 from "./whatGPT3/WhatGPT3";
 import Possibility from "./possibility/Possibility";
 import CTA from "./cta/CTA";
@@ -7,7 +7,7 @@ import Footer from "./footer/Footer";
 
 
 export {
-    Header,
+    Hero,
     WhatGPT3,
     Possibility,
     CTA,

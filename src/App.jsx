@@ -1,17 +1,14 @@
 import './App.css'
 import React from 'react'
-import { CTA, Footer, Header, Possibility, WhatGPT3, Blog } from './containers'
+import { CTA, Footer,Possibility, WhatGPT3, Blog, Hero } from './containers'
 import { Brand, Navbar } from './components'
-
-
-
 
 const App = () => {
   return (
     <>
     <div className='gradient__bg'>
-      <Navbar/>
-      <Header/>         
+      <Navbar/>      
+      <Hero/>         
     </div>
       <Brand/>
       <WhatGPT3/>

@@ -1,13 +1,13 @@
-import './header.css'
-import React from 'react'
+import './hero.css'
 import people from '../../assets/people.png';
 import { HEADER } from '../../constants/data';
 import { photo01 } from '../../constants/images';
+import React from 'react'
 
-const Header = () => {
+const Hero = () => {
   return (
-    <>
-        <div className="gpt3__header section__padding" id="home">
+    <div>
+         <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
       <h4 className='gradient__text'>{HEADER.tag}</h4>
       <h1 className="gradient__text">{HEADER.title}</h1>
@@ -28,17 +28,8 @@ const Header = () => {
       <img src={photo01} />
     </div>
   </div>
-    </>
+    </div>
   )
 }
 
-export default Header
-
-
-
-
-
-
-  
-
-
+export default Hero
